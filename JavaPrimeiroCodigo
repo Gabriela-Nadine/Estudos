@@ -1,4 +1,4 @@
-//utilizando o replit e aula devdojo
+//utilizando o replit e aula devdojo java
 class PrimeiroCodigo {
   public static void main(String[] args) {
     System.out.println("Hello world!");
