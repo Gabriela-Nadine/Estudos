@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+  int idade1 = 85;
+  int idade2 = 50;
+  int diferenca = idade1 - idade2;
+System.out.println ("a diferença de idade  é " + diferenca);
+    
+  }
+
+
+}
