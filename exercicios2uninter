@@ -1,0 +1,31 @@
+package pratica;
+
+import java.util.Scanner;
+
+public class apratica1 {
+	public static void main (String [] args) {
+  //exercicio 2: Consiste em um pequeno jogo de palpites onde o usuário vai responder a pergunta.
+		Scanner teclado= new Scanner (System.in);
+		int palpite;
+		int valorCorreto=10000;
+		System.out.println("Quantos soldados os 300 Espartanos de Leonidas irão enfrentar?");
+		System.out.println("Digite o seu palpite:");
+		palpite= teclado.nextInt();
+		
+		while (palpite != valorCorreto) {
+			if (palpite > valorCorreto) {
+				System.out.println("Um pouco menos...");
+			}
+			else {
+				System.out.println("Um pouco mais...");
+			}
+			System.out.println("Digite outro palpite: ");
+			palpite=teclado.nextInt();
+			
+		}
+		System.out.println("Parabéns, acertou!");
+		
+		
+
+}
+}
