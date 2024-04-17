@@ -1,0 +1,24 @@
+package pratica;
+
+import java.util.Scanner;
+
+public class apratica1 {
+	public static void main (String [] args) {
+  //exercício numero 2 usando um operador ternário
+    Scanner teclado= new Scanner (System.in);
+		int palpite;
+		int valorCorreto=10000;
+		System.out.println("Quantos soldados os 300 Espartanos de Leonidas irão enfrentar?");
+		System.out.println("Digite o seu palpite:");
+		palpite= teclado.nextInt();
+		String msg; //var operador ternário
+    while (palpite != valorCorreto) {  // operador ternário a seguir, é usado para substituir o if else
+			msg=palpite>valorCorreto?"Um pouco menos...":"Um pouco mais...";
+			System.out.println(msg);
+   System.out.println("Digite outro palpite: ");
+			palpite=teclado.nextInt();
+			
+		}
+		System.out.println("Parabéns, acertou!");
+  }
+  }
