@@ -1,0 +1,17 @@
+package pratica;
+
+import java.util.Scanner; //importação do Scanner 
+
+public class apratica1 {
+	public static void main (String [] args) {
+		//exercicio 1: consiste em criar uma calculadora de IMC simples.
+  
+		Scanner indice= new Scanner (System.in);
+		System.out.println("Digite o seu peso");
+		int peso = indice.nextInt();
+		System.out.println("digite a sua altura");
+		double altura = indice.nextDouble();
+		double imc = peso/(altura * altura);
+		System.out.printf("Seu IMC é igual a: %.2f", imc);
+  }
+  }
